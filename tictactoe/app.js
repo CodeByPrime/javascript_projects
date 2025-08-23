@@ -1,3 +1,5 @@
+
+// making logical part of game
 let boxes = document.querySelectorAll('.box');
 let resetBtn = document.querySelector('#reset-btn');
 let messageElement = document.querySelector('#message');
@@ -89,3 +91,4 @@ const resetGame = () => {
 
 // Initialize the game when page loads
 initGame();
+
